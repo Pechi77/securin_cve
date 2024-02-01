@@ -1,0 +1,9 @@
+fastapi
+uvicorn
+pymongo
+motor
+pydantic
+requests
+pytest
+pytest-asyncio
+httpx
