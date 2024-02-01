@@ -2,8 +2,8 @@ from typing import List
 
 from fastapi import APIRouter, HTTPException, status
 
-from models.article_model import CVE
-from database.database import get_cve, find_cve_by_id
+from securin_cve.models.article_model import CVE
+from securin_cve.database.database import get_cve, find_cve_by_id
 
 
 router = APIRouter()

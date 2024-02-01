@@ -13,8 +13,8 @@ class CVE(BaseModel):
     lastModified: datetime
     vulnStatus: str
     descriptions: List[Description]
-    metrics: dict
-    weekness: Optional[List]
+    metrics: Optional[dict]
+    weaknesses: Optional[List]
     configurations: List
     references: List
 
