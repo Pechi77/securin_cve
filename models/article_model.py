@@ -14,7 +14,7 @@ class CVE(BaseModel):
     vulnStatus: str
     descriptions: List[Description]
     metrics: dict
-    weekness: Optional[List]
+    weaknesses: Optional[List]
     configurations: List
     references: List
 
